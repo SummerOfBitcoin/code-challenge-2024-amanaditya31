@@ -1,6 +1,7 @@
 ## Approach
 The program implements it functionalities in a well defined manner:
-1.Selecting the transaction
+
+1. Selecting the transaction
 -Transactions are read from the mempool directory and validated based on supported scriptPubKey types
 -Selects transactions within block weight limit and maximizes total fees.
 
